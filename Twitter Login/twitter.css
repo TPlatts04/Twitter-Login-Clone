@@ -1,0 +1,227 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 400px 1fr 1200px;
+  column-gap: 360px;
+  margin-bottom: 0px;
+  margin-top: 290px;
+  margin-left: 300px;
+}
+
+body {
+  background-color: black;
+}
+
+.logo {
+  height: 400px;
+}
+
+#twitter-logo {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+
+.buttons {
+  margin-top: -200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 750px;
+}
+
+#happening-now {
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 700;
+}
+
+#join-today {
+  font-size: 40px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 700;
+}
+
+#google-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 25px;
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 115px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 250ms;
+  background-color: white;
+}
+
+.google-text {
+  margin-right: 50px;
+  margin-left: 50px;;
+}
+
+#google-button:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+#google-button:active {
+  background-color: rgb(156, 156, 156);
+}
+
+#google-logo {
+  width: 25px;
+  vertical-align: middle;
+}
+
+#apple-button {
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 25px;
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 115px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 250ms;
+  background-color: white;
+}
+
+#apple-logo {
+  width: 25px;
+  vertical-align: middle;
+}
+
+.apple-text {
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+#apple-button:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+#apple-button:active {
+  background-color: rgb(156, 156, 156);
+}
+
+#apple-logo {
+  width: 25px;
+  vertical-align: middle;
+}
+
+hr {
+  width: 330px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-color: rgb(94, 94, 94);
+  margin-bottom: 0px;;
+}
+
+#or {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 160px;
+  color: white;
+}
+
+.create-account {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 330px;
+  background-color: rgb(29,155,240);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 115px;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.create-account:hover {
+  background-color: rgb(26,141,218);
+}
+
+.create-account:active {
+  background-color: rgb(21, 110, 170);
+}
+
+.agreement {
+  font-size: 12px;
+  width: 350px;
+  color: rgb(113, 118, 123);
+}
+
+.tos, .privacy, .cookie {
+  color: rgb(26,141,218);
+  cursor: pointer;
+}
+
+.tos:hover, .privacy:hover, .cookie:hover {
+  text-decoration: underline;
+}
+
+.account-old {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.sign-in-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(29,155,240);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(83, 100, 113);
+  border-radius: 115px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.sign-in-button:hover {
+  background-color: rgba(29, 155, 240, 0.094);
+}
+
+.sign-in-button:active {
+  background-color: rgba(24, 125, 192, 0.094);
+}
+
+.bottom-tags {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  bottom: 0;
+  margin-left: -180px;
+  padding-bottom: 10px;;
+}
+
+.about-text, .download-text, .help-text, .terms-text, .privacy-text, .cookiepol-text, .accessibility-text, .ads-text, .blog-text, .status-text, .careers-text, .brand-text, .advertising-text, .marketing-text, .x-text, .developers-text, .directory-text, .corp-text, .settings-text {
+  font-size: 13px;
+  display: inline;
+  padding-right: 16px;
+  color: rgb(113, 118, 123);  
+  cursor: pointer;
+}
+
+.about-text:hover, .download-text:hover, .help-text:hover, .terms-text:hover, .privacy-text:hover, .cookiepol-text:hover, .accessibility-text:hover, .ads-text:hover, .blog-text:hover, .status-text:hover, .careers-text:hover, .brand-text:hover, .advertising-text:hover, .marketing-text:hover, .x-text:hover, .developers-text:hover, .directory-text:hover, .corp-text:hover, .settings-text:hover {
+  text-decoration: underline;
+}
